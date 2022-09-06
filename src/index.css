@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Vazirmatn';
+}
+button{
+    outline: none;
+    border: none;
+}
+.bg-main-1{
+    background-color: rgb(32, 32, 32);
+}
+.text-main-1{
+    color: rgb(32, 32, 32);
+}
+.bg-main-2{
+    background-color: #3F5AEF;
+}
+.text-main-3{
+    color: #feb757;
+}
+.text-main-2{
+    color: #3F5AEF;
+}
+.bg-main-4{
+    background-color: #080620;
+}
+.fw-200{
+    font-weight: 200;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.header-navbar-links{
+    cursor: pointer;
+}
+.header-navbar-links:hover{
+    color: #3F5AEF;
+}
+.border-bottom-main-2-3{
+    border-bottom: 3px solid #3F5AEF;
+}
+.border-bottom-main-2-2{
+    border-bottom: 2px solid #3F5AEF;
+}
