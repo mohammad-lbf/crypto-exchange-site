@@ -20,8 +20,17 @@ button{
 .text-main-3{
     color: #feb757;
 }
+.bg-main-3{
+    background-color: #feb757;
+}
 .text-main-2{
     color: #3F5AEF;
+}
+.text-main-4{
+    color: #080620;
+}
+.w-300{
+    width: 300px;
 }
 .bg-main-4{
     background-color: #080620;

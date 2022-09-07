@@ -2,10 +2,10 @@ import React from 'react';
 import BitcoinImg2 from '../../assets/images/cryptocurrency-wallet-4307584-3581353.webp'
 const HomePageNav2 = () => {
     return (
-        <div className="container">
+        <div className="container py-4">
             <div className="row align-items-center flex-column-reverse flex-lg-row">
-                <div className="col-12 col-lg-6">
-                    <img className="img-fluid" src={BitcoinImg2} />
+                <div className="col-12 col-lg-6 text-center">
+                    <img className="w-300" src={BitcoinImg2} />
                 </div>
                 <div className="col-12 col-lg-6">
                 <div className="d-flex align-items-center align-items-lg-end flex-column">

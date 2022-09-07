@@ -3,20 +3,29 @@ import HeaderLogo from '../shared/HeaderLogo';
 
 const Header = () => {
     return (
-        <div className="d-flex flex-row-reverse container py-3 py-lg-4 align-items-center justify-content-between">
-            <i className="d-lg-none bi bi-list fs-2 text-main-2"></i>
+        <div style={{position:"fixed" , top:"0" , right:"0" , zIndex:"20"}} className="text-center w-100 bg-white shadow-sm">
+            <div
+        className="d-flex flex-row-reverse container bg-white py-3 py-lg-4 align-items-center justify-content-between">
+            <button className="bg-white border-0 p-0 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#HambergurMenuOffcanvas">
+                <i style={{color:"#3f5aef"}} className="d-lg-none border-0 bi bi-list fs-2 p-0"></i>
+            </button>
             <div className="d-flex flex-row-reverse align-items-center">
                 <HeaderLogo />
                 <div className="d-none d-lg-flex flex-row-reverse me-5 align-items-center">
                     <p className="mb-0 mx-2 text-main-2 header-navbar-links">صفحه اصلی</p>
-                    <p className="mb-0 mx-2 fw-200 header-navbar-links">وبلاگ</p>
+                    <p className="mb-0 mx-2 fw-200 header-navbar-links">لیست همه ی ارز ها</p>
                     <p className="mb-0 mx-2 fw-200 header-navbar-links">درباره ما</p>
+                    <button className=" bg-main-2 text-white fs-14 px-4 py-2 me-2 rounded-pill" data-bs-dismiss="offcanvas">
+                    درباره پروژه
+                </button>
                 </div>
             </div>
-            <i className="d-md-none bi bi-person-circle fs-2 text-main-2"></i>
+            <button className="bg-white border-0 p-0 d-lg-none" type="button" data-bs-toggle="modal" data-bs-target="#AccountModal">
+                <i style={{color:"#3f5aef"}} className="d-lg-none border-0 bi bi-person fs-2 p-0"></i>
+            </button>
 
             <div className="d-none d-lg-flex">
-                <button className="d-none d-md-block bg-main-2 text-white fs-14 px-4 py-3 rounded-pill">
+                <button className="d-none d-md-block bg-main-2 text-white fs-14 px-4 py-3 rounded-pill" data-bs-toggle="modal" data-bs-target="#AccountModal">
                     حساب کاربری
                 </button>
                 <button className="btn btn-white border-0 ms-3 ms-lg-4 p-0">
@@ -26,6 +35,7 @@ const Header = () => {
                     </div>
                 </button>
             </div>
+        </div>
         </div>
     );
 };

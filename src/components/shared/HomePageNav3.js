@@ -13,7 +13,7 @@ const HomePageNav3 = () => {
                     </button>
               </div> 
               <p className="fs-13 text-center text-white">بدون واسطه و بدون کارمزد اضافی در سرتاسر جهان ارزهای بیت کوین ، اتریوم ، تتر و ... با قیمت مناسب بخرید و بفروشید</p> 
-            <img className="img-fluid" src={BitcoinImg3} />
+            <img className="w-300" src={BitcoinImg3} />
             </div>
         </div>
         </div>

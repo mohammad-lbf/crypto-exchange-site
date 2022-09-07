@@ -6,12 +6,12 @@ import HomePageNav3 from '../shared/HomePageNav3';
 
 const HomePage = () => {
     return (
-        <div>
+        <div style={{marginTop:"95px"}} className="">
             <nav>
                 <HomePageNav1 />
                 <HomePageCurrenciesMenu />
-                <HomePageNav2 />
                 <HomePageNav3 />
+                <HomePageNav2 />
             </nav>
         </div>
     );

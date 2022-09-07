@@ -22,7 +22,7 @@ const HomePageCurrenciesMenu = () => {
     const searchedItems = coins.filter(item => item.name.toLowerCase().includes(search.toLowerCase()))
 
     return (
-        <div className="bg-light rounded container my-3 p-4 py-2">
+        <div className="bg-light rounded container mt-3 p-4 py-2">
             <div className="d-flex justify-content-center justify-content-lg-end mt-2 mb-2 mb-lg-4 align-items-center">
             {/* <input value={search} onChange={searchHandler} style={{width:"300px" , outline:"none"}} className="border rounded p-2 text-end" type="text" placeholder="جستجوی ارز"/> */}
             <p className="text-end mb-lg-0 text-main-2 fs-4 fw-bold">:آخرین قیمت ارز های دیجیتال</p>
