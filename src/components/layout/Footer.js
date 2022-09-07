@@ -32,9 +32,9 @@ const Footer = () => {
             </div>
             <div className="d-flex flex-column align-items-center align-items-lg-end footer-logo mb-5 mb-lg-0">
                 <Link className="fs-15 text-decoration-none text-white my-2" to="/">صفحه اصلی</Link>
-                <Link className="fs-15 text-decoration-none text-white my-2" to="/weblog">لیست همه ی ارز ها</Link>
-                <Link className="fs-15 text-decoration-none bg-main-2 text-white my-2 px-2 py-1 border-0 rounded" to="/aboutproject">درباره پروژه</Link>
-                <Link className="fs-15 text-decoration-none text-white my-2" to="/aboutdeveloper">درباره ما</Link>
+                <Link className="fs-15 text-decoration-none text-white my-2" to="/all-cryptoes">لیست همه ی ارز ها</Link>
+                <Link className="fs-15 text-decoration-none bg-main-2 text-white my-2 px-2 py-1 border-0 rounded" to="/about-project">درباره پروژه</Link>
+                <Link className="fs-15 text-decoration-none text-white my-2" to="/about-us">درباره ما</Link>
             </div>
             <div className="d-flex flex-column align-items-center">
             <p style={{fontSize:"15px"}} className="fw-bold text-white">ما را در فضای مجازی دنبال کنید</p>

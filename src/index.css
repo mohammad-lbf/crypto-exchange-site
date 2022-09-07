@@ -48,6 +48,7 @@ button{
     font-size: 14px;
 }
 .header-navbar-links{
+    color: #000;
     cursor: pointer;
 }
 .header-navbar-links:hover{

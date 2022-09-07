@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import HeaderLogo from '../shared/HeaderLogo';
 
 const Header = () => {
@@ -12,12 +13,14 @@ const Header = () => {
             <div className="d-flex flex-row-reverse align-items-center">
                 <HeaderLogo />
                 <div className="d-none d-lg-flex flex-row-reverse me-5 align-items-center">
-                    <p className="mb-0 mx-2 text-main-2 header-navbar-links">صفحه اصلی</p>
-                    <p className="mb-0 mx-2 fw-200 header-navbar-links">لیست همه ی ارز ها</p>
-                    <p className="mb-0 mx-2 fw-200 header-navbar-links">درباره ما</p>
-                    <button className=" bg-main-2 text-white fs-14 px-4 py-2 me-2 rounded-pill" data-bs-dismiss="offcanvas">
-                    درباره پروژه
+                    <Link to="/" className=" text-decoration-none mb-0 mx-2 fw-200 header-navbar-links">صفحه اصلی</Link>
+                    <Link to="/all-cryptoes"  className=" text-decoration-none mb-0 mx-2 fw-200 header-navbar-links">لیست همه ی ارز ها</Link>
+                    <Link to="/about-us" className="text-decoration-none mb-0 mx-2 fw-200 header-navbar-links">درباره ما</Link>
+                    <Link to="/about-project">
+                    <button className="text-decoration-none bg-main-2 text-white fs-14 px-4 py-2 me-2 rounded-pill" data-bs-dismiss="offcanvas">
+                        درباره پروژه
                 </button>
+                    </Link>
                 </div>
             </div>
             <button className="bg-white border-0 p-0 d-lg-none" type="button" data-bs-toggle="modal" data-bs-target="#AccountModal">
