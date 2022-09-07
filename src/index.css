@@ -60,3 +60,27 @@ button{
 .border-bottom-main-2-2{
     border-bottom: 2px solid #3F5AEF;
 }
+@media(min-width:576px){
+    .fs-sm-15{
+      font-size: 15px;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(189, 189, 189);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(121, 121, 121);
+    border-radius: 6px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

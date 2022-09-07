@@ -2,7 +2,7 @@ import React from 'react';
 import Bitcoin1 from '../../assets/images/bitcoin-4867136-4061619.webp'
 const HomePageNav1 = () => {
     return (
-        <div className="container mt-2 pt-3 pb-3">
+        <div className="container mt-2 pt-3 pt-lg-5 pb-3 ">
             <div className="row flex-row-reverse align-items-center justify-content-between">
                 <div className="col-12 col-lg-5 text-center text-lg-end">
                     <p className="mb-0 fw-bold fs-1">سامانه معاملات آنلاین</p>
